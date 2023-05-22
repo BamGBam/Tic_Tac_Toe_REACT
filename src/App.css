@@ -1,5 +1,16 @@
-.App {
+.App {  
+  display: flex;
+  flex-direction: column;
+  height: 90vh; /* Set the height of the app to full viewport height */
   text-align: center;
+}
+
+.content {
+  flex-grow: 1; /* Allow the content to grow and fill remaining space */
+}
+
+.bottom-link {
+  margin-top: auto; /* Push the link to the bottom */
 }
 
 .App-logo {
